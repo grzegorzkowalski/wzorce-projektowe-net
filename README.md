@@ -34,14 +34,14 @@
 	6. Composite
 	7. Flyweight
 6. Wzorce projektowe behawioralne
-1. Command, 
-2. Observer 
-3. Iterator 
-4. State 
-5. Strategy
-6. Visitor
-7. Interpreter
-8. Memento
-9. Template Method
-10. Mediator
-11. Chain of Responsibility
+	1. Command, 
+	2. Observer 
+	3. Iterator 
+	4. State 
+	5. Strategy
+	6. Visitor
+	7. Interpreter
+	8. Memento
+	9. Template Method
+	10. Mediator
+	11. Chain of Responsibility
