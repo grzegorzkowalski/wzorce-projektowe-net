@@ -1,4 +1,6 @@
-﻿IControlTower controlTower = new ControlTower();
+﻿using MediatorControlTower;
+
+IControlTower controlTower = new ControlTower();
 
 Airplane airplane1 = new PassengerAirplane(controlTower, "Flight A1");
 Airplane airplane2 = new PassengerAirplane(controlTower, "Flight B2");

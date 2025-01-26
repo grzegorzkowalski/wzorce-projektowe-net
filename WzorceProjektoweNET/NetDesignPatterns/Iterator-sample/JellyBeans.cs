@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Iterator_sample
 {
     /// <summary>
-    /// Our collection item.  Mostly because I'm a sucker for jelly beans.
+    /// Our collection item. Mostly because I'm a sucker for jelly beans.
     /// </summary>
     class JellyBean
     {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Command_sample
+﻿namespace Command_sample
 {
     /// <summary>
     /// The Invoker class

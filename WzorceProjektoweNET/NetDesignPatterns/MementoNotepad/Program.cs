@@ -1,4 +1,6 @@
-﻿Notepad notepad = new Notepad();
+﻿using MementoNotepad;
+
+Notepad notepad = new Notepad();
 NotepadHistory history = new NotepadHistory();
 
 // Dodawanie tekstu i zapisywanie stanu

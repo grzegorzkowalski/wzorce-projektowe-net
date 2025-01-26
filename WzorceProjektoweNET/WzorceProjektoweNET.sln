@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadania", "Zadania", "{A96F3ED2-89FE-4461-8FC7-CBCDC770F16B}"
 	ProjectSection(SolutionItems) = preProject
-		CH06_NetDesignPatterns\Zadania\README.md = CH06_NetDesignPatterns\Zadania\README.md
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Zadania\README.md = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Zadania\README.md
 		CH06_NetDesignPatterns\Zadania\Workshop.md = CH06_NetDesignPatterns\Zadania\Workshop.md
 	EndProjectSection
 EndProject
@@ -19,8 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MoreSamples", "MoreSamples", "{CDF277E2-39BA-430C-8C0E-9A62C3025959}"
 	ProjectSection(SolutionItems) = preProject
-		CH06_NetDesignPatterns\MoreSamples\PrototypRozneRodzaje.cs = CH06_NetDesignPatterns\MoreSamples\PrototypRozneRodzaje.cs
-		CH06_NetDesignPatterns\MoreSamples\ProxyRozneRodzaje.cs = CH06_NetDesignPatterns\MoreSamples\ProxyRozneRodzaje.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\MoreSamples\PrototypRozneRodzaje.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\MoreSamples\PrototypRozneRodzaje.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\MoreSamples\ProxyRozneRodzaje.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\MoreSamples\ProxyRozneRodzaje.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{3F617EEB-7E75-4B91-85C7-A92C8C78E698}"
@@ -113,8 +113,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade-sample", "NetDesignP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiFacade", "NetDesignPatterns\WeatherApiFacade\WeatherApiFacade.csproj", "{6D8B1634-7D64-4CB1-BFEA-341E8A6E9595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SantaClausFactory", "NetDesignPatterns\SantaClausFactory\SantaClausFactory.csproj", "{E2DDC3C9-6BB2-4421-8DBF-10982866F610}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SantaClausFactoryLive", "NetDesignPatterns\SantaClausFactoryLive\SantaClausFactoryLive.csproj", "{2781EA24-CB53-4783-B704-384CB9D25D6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarriorFactory", "NetDesignPatterns\WarriorFactory\WarriorFactory.csproj", "{9A9BB2B3-EAE1-4A17-A44C-71EC3C6ECBDF}"
@@ -176,6 +174,19 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory-sample", "NetDesignPatterns\Factory-sample\Factory-sample.csproj", "{1F2F59B8-AE74-43E4-AD50-990B296A4785}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod-SimpleSample", "NetDesignPatterns\FactoryMethod-SimpleSample\FactoryMethod-SimpleSample.csproj", "{E7F6B0FF-FF65-44BE-8359-4456D9C625A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workshop", "Workshop", "{0019653A-7543-4785-B714-FBDAA9685672}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObliczanieKosztowDostawy.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObliczanieKosztowDostawy.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObslugaDzialanZwiazanychzZamowieniem.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObslugaDzialanZwiazanychzZamowieniem.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Order.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Order.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Powiadomienia.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Powiadomienia.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Program.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Program.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\TworzenieZamowien.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\TworzenieZamowien.cs
+		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ZarzadzanieStatusemZamowienia.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ZarzadzanieStatusemZamowienia.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderWorkshop", "OrderWorkshop\OrderWorkshop.csproj", "{3754FF9E-9BAB-4547-A63B-A10F650F1B8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,10 +282,6 @@ Global
 		{6D8B1634-7D64-4CB1-BFEA-341E8A6E9595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D8B1634-7D64-4CB1-BFEA-341E8A6E9595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D8B1634-7D64-4CB1-BFEA-341E8A6E9595}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2DDC3C9-6BB2-4421-8DBF-10982866F610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2DDC3C9-6BB2-4421-8DBF-10982866F610}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2DDC3C9-6BB2-4421-8DBF-10982866F610}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2DDC3C9-6BB2-4421-8DBF-10982866F610}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2781EA24-CB53-4783-B704-384CB9D25D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2781EA24-CB53-4783-B704-384CB9D25D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2781EA24-CB53-4783-B704-384CB9D25D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -395,6 +402,10 @@ Global
 		{E7F6B0FF-FF65-44BE-8359-4456D9C625A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7F6B0FF-FF65-44BE-8359-4456D9C625A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7F6B0FF-FF65-44BE-8359-4456D9C625A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3754FF9E-9BAB-4547-A63B-A10F650F1B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3754FF9E-9BAB-4547-A63B-A10F650F1B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3754FF9E-9BAB-4547-A63B-A10F650F1B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3754FF9E-9BAB-4547-A63B-A10F650F1B8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -447,7 +458,6 @@ Global
 		{C305D6EF-D3A4-4D02-BA95-2F0CCACA540E} = {D5B97F6A-70E8-4F3F-93C1-E0076A4C642A}
 		{6C9DB29F-E6BF-4EBF-9EA6-B381DC0F7C67} = {DBA299B9-5E46-4677-930C-C7FACED0ADA8}
 		{6D8B1634-7D64-4CB1-BFEA-341E8A6E9595} = {DBA299B9-5E46-4677-930C-C7FACED0ADA8}
-		{E2DDC3C9-6BB2-4421-8DBF-10982866F610} = {B0872BDB-7548-4FD3-B5DD-757133CBEF6D}
 		{2781EA24-CB53-4783-B704-384CB9D25D6D} = {C1730B99-519A-435F-9DE5-AA36E2E13316}
 		{9A9BB2B3-EAE1-4A17-A44C-71EC3C6ECBDF} = {B0872BDB-7548-4FD3-B5DD-757133CBEF6D}
 		{0B8AF213-62AD-4B25-8062-7B05DD35818A} = {3F617EEB-7E75-4B91-85C7-A92C8C78E698}
@@ -479,5 +489,7 @@ Global
 		{ADB3BB95-005F-4637-898C-A6832F234154} = {419A5B8F-9F48-4552-9B2F-B74E31E37FEB}
 		{1F2F59B8-AE74-43E4-AD50-990B296A4785} = {B0872BDB-7548-4FD3-B5DD-757133CBEF6D}
 		{E7F6B0FF-FF65-44BE-8359-4456D9C625A2} = {3F617EEB-7E75-4B91-85C7-A92C8C78E698}
+		{0019653A-7543-4785-B714-FBDAA9685672} = {CAD164AA-CA1E-439D-AE9A-4043EACDAC97}
+		{3754FF9E-9BAB-4547-A63B-A10F650F1B8E} = {CAD164AA-CA1E-439D-AE9A-4043EACDAC97}
 	EndGlobalSection
 EndGlobal

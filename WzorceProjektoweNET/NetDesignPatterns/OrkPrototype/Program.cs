@@ -1,24 +1,15 @@
-﻿using Newtonsoft.Json;
-using OrkPrototype;
+﻿using OrkPrototype;
 
-List<Ork> battleOrks = new();
-
-var ork = new Ork();
-ork.Age = 100;
-ork.Strenght = 200;
-ork.Speed = 50;
-
-battleOrks.Add(ork);
-
-Ork cloneOrk = ork.copyOrk();
-Ork cloneOrk2 = ork.copyOrk();
-battleOrks.Add(cloneOrk);
-battleOrks.Add(cloneOrk2);
-battleOrks.Add(ork.copyOrk());
-
-foreach (var item in battleOrks)
+Ork originalOrk = new Ork
 {
-    Console.WriteLine($"Cześć moja siła to {item.Strenght}, " +
-        $"mój wiek to {item.Age}, moja szybkość to {item.Speed} {item.GetType()}");
-}
+    Age = 25,
+    Strength = 150,
+    Speed = 100
+};
 
+// Tworzenie kopii za pomocą wzorca Prototype
+Ork clonedOrk = originalOrk.DeepCopy();
+
+// Wyświetlanie informacji o oryginalnym i sklonowanym orku
+Console.WriteLine($"Original Ork: Age={originalOrk.Age}, Strength={originalOrk.Strength}, Speed={originalOrk.Speed}");
+Console.WriteLine($"Cloned Ork: Age={clonedOrk.Age}, Strength={clonedOrk.Strength}, Speed={clonedOrk.Speed}");

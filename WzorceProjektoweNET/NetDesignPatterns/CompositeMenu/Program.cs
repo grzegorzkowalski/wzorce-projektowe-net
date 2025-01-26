@@ -1,4 +1,6 @@
-﻿MenuCategory mainMenu = new MenuCategory("Main Menu");
+﻿using CompositeMenu;
+
+MenuCategory mainMenu = new MenuCategory("Main Menu");
 
 MenuCategory appetizers = new MenuCategory("Appetizers");
 appetizers.Add(new Dish("Bruschetta"));

@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SantaClausFactoryLive
+﻿namespace SantaClausFactoryLive
 {
     internal class SantaFactory
     {
-        internal Gift CreateToy(string toyName)
+        public Gift CreateToy(string toyName)
         {
             Console.WriteLine($"Tworzenie zabawki: {toyName}");
-            return new Toy(toyName);
+            return new Gift { Name = toyName, Type = "Toy" };
         }
 
-        internal Gift CreateRod(string rodName)
+        public Gift CreateRod(string rodName)
         {
             Console.WriteLine($"Tworzenie rózgi: {rodName}");
-            return new Rod(rodName);
+            return new Gift { Name = rodName, Type = "Rod" };
         }
     }
 }

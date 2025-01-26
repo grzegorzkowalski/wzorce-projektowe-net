@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TemplateMethod_sample
+﻿namespace TemplateMethod_sample
 {
     /// <summary>
     /// The AbstractClass which contains the template method.

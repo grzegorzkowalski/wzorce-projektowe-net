@@ -1,8 +1,20 @@
 ﻿using SantaClausFactoryLive;
 
-Elf elf = new Elf();
-elf.AddWish(1, "Piłka");
-elf.AddWish(2, "Rózga");
-elf.Execute();
+var elf = new Elf();
 
-List<Gift> preparedGifts = elf.GetPreparedGifts(); // Pobranie przygotowanych prezentów
+// Dodanie komend
+elf.SetCommand(1, "Samochodzik");
+elf.SetCommand(2, "Rózga");
+elf.SetCommand(1, "Klocki Lego");
+
+// Wykonanie wszystkich komend
+elf.ExecuteAll();
+
+// Wyświetlenie prezentów
+foreach (var gift in elf.GetPreparedGifts())
+{
+    Console.WriteLine($"Przygotowano: {gift.Name} ({gift.Type})");
+}
+
+// Cofnięcie ostatniej komendy
+elf.UndoLastCommand();

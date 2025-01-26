@@ -1,4 +1,6 @@
-﻿IProduct book = new Book("C# Programming", 50m);
+﻿using VisitorShop;
+
+IProduct book = new Book("C# Programming", 50m);
 IProduct electronics = new Electronics("Smartphone XYZ", 500m);
 
 IProductVisitor discountCalculator = new DiscountCalculator();

@@ -2,18 +2,29 @@
 
 namespace OrkPrototype
 {
-    internal class Ork
-    {     
+    // Klasa Ork implementująca interfejs ICloneable
+    internal class Ork : ICloneable
+    {
         public int Age { get; set; }
-        public int Strenght { get; set; }
+        public int Strength { get; set; }
         public int Speed { get; set; }
 
-        public Ork copyOrk()
+        // Implementacja metody Clone jako część wzorca Prototype
+        public object Clone()
         {
-            string orkCopy = JsonConvert.SerializeObject(this);
-            Ork copiedOrk = JsonConvert.DeserializeObject<Ork>(orkCopy);
-            copiedOrk.Strenght = new Random().Next(300);
-            return copiedOrk;
+            // Tworzenie głębokiej kopii obiektu przy użyciu serializacji JSON
+            string serializedOrk = JsonConvert.SerializeObject(this);
+            Ork clonedOrk = JsonConvert.DeserializeObject<Ork>(serializedOrk);
+
+            // Dodanie logiki związanej z losową zmianą właściwości, jeśli to wymagane
+            clonedOrk.Strength = new Random().Next(300);
+            return clonedOrk;
+        }
+
+        // Dodatkowa metoda dla wygody, która zwraca typowany obiekt Ork
+        public Ork DeepCopy()
+        {
+            return (Ork)this.Clone();
         }
     }
 }

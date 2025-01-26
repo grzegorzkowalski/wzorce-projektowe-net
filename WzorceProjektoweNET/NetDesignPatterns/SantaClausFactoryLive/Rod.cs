@@ -8,11 +8,7 @@ namespace SantaClausFactoryLive
 {
     internal class Rod : Gift
     {
-        internal Rod(string name)
-        {
-
-            Name = name;
-            ForNiceChildren = false;
-        }
+        public string Name { get; set; }
+        public string Type { get; set; }
     }
 }
