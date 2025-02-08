@@ -10,7 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadania", "Zadania", "{A96F3ED2-89FE-4461-8FC7-CBCDC770F16B}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Zadania\README.md = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Zadania\README.md
-		CH06_NetDesignPatterns\Zadania\Workshop.md = CH06_NetDesignPatterns\Zadania\Workshop.md
+		NetDesignPatterns\Zadania\Workshop.md = NetDesignPatterns\Zadania\Workshop.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{B0872BDB-7548-4FD3-B5DD-757133CBEF6D}"
