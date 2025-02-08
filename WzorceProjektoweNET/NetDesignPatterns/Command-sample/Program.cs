@@ -16,7 +16,7 @@ Patron patron = new Patron();
     patron.ShowCurrentOrder();
 
     //Remove the french fries
-    patron.SetCommand(3 /*Add*/);
+    patron.SetCommand(3 /*Remove*/);
     patron.SetMenuItem(new MenuItem("French Fries", 2, 1.99));
     patron.ExecuteCommand();
 

@@ -1,4 +1,4 @@
-﻿namespace TextureFactory
+﻿namespace TextureFactory_
 {
     public class Texture
     {

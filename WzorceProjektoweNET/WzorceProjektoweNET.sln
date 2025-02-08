@@ -175,17 +175,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory-sample", "NetDesign
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod-SimpleSample", "NetDesignPatterns\FactoryMethod-SimpleSample\FactoryMethod-SimpleSample.csproj", "{E7F6B0FF-FF65-44BE-8359-4456D9C625A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workshop", "Workshop", "{0019653A-7543-4785-B714-FBDAA9685672}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObliczanieKosztowDostawy.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObliczanieKosztowDostawy.cs
-		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObslugaDzialanZwiazanychzZamowieniem.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ObslugaDzialanZwiazanychzZamowieniem.cs
-		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Order.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Order.cs
-		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Powiadomienia.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Powiadomienia.cs
-		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Program.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\Program.cs
-		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\TworzenieZamowien.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\TworzenieZamowien.cs
-		..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ZarzadzanieStatusemZamowienia.cs = ..\..\refaktoryzacja-do-wzorcow-projektowych\CH06_NetDesignPatterns\Workshop01\ZarzadzanieStatusemZamowienia.cs
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderWorkshop", "OrderWorkshop\OrderWorkshop.csproj", "{3754FF9E-9BAB-4547-A63B-A10F650F1B8E}"
 EndProject
 Global
@@ -489,7 +478,6 @@ Global
 		{ADB3BB95-005F-4637-898C-A6832F234154} = {419A5B8F-9F48-4552-9B2F-B74E31E37FEB}
 		{1F2F59B8-AE74-43E4-AD50-990B296A4785} = {B0872BDB-7548-4FD3-B5DD-757133CBEF6D}
 		{E7F6B0FF-FF65-44BE-8359-4456D9C625A2} = {3F617EEB-7E75-4B91-85C7-A92C8C78E698}
-		{0019653A-7543-4785-B714-FBDAA9685672} = {CAD164AA-CA1E-439D-AE9A-4043EACDAC97}
 		{3754FF9E-9BAB-4547-A63B-A10F650F1B8E} = {CAD164AA-CA1E-439D-AE9A-4043EACDAC97}
 	EndGlobalSection
 EndGlobal

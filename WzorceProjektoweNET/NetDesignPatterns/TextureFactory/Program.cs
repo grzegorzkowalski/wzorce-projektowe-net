@@ -1,4 +1,6 @@
-﻿TextureFactory factory = new TextureFactory();
+﻿using TextureFactory_;
+
+TextureFactory factory = new TextureFactory();
 
 // Współdzielenie tekstur
 Texture grassTexture = factory.GetTexture("grass.png");

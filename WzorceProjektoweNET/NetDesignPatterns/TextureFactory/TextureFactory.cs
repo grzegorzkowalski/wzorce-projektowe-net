@@ -1,6 +1,4 @@
-﻿using TextureFactory;
-
-namespace RefactoringToDesignPatterns.CH06_NetDesignPatterns.TextureFactory
+﻿namespace TextureFactory_
 {
     // Flyweight Factory
     public class TextureFactory
