@@ -1,4 +1,6 @@
-﻿Character character = new Character();
+﻿using StateCharacter;
+
+Character character = new Character();
 
 character.Attack(); // Zdrowy atak
 character.Heal(); // Zdrowy, nic się nie dzieje

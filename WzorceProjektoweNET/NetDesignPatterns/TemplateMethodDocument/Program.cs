@@ -1,4 +1,6 @@
-﻿DocumentProcessor pdfProcessor = new PDFProcessor();
+﻿using TemplateMethodDocument;
+
+DocumentProcessor pdfProcessor = new PDFProcessor();
 DocumentProcessor wordProcessor = new WordProcessor();
 
 Console.WriteLine("Przetwarzanie dokumentu PDF:");
