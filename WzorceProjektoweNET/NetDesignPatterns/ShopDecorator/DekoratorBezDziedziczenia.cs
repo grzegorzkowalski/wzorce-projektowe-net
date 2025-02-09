@@ -33,11 +33,11 @@
             }
         }
 
-        public void PayByCach()
+        public void PayByCash()
         {
             if (_shop != null)
             {
-                _shop.PayByCach();
+                _shop.PayByCash();
             }
         }
 

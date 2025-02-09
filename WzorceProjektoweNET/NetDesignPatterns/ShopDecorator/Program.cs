@@ -1,9 +1,9 @@
 ﻿using ShopDecorator;
 Decorator shopDecorator = new();
-shopDecorator.PayByCach();
+shopDecorator.PayByCash();
 shopDecorator.PayByCard();
 
 var shop = new Shop();
 var shopDecoratorNoInheritence = new DekoratorBezDziedziczenia(shop);
-shopDecoratorNoInheritence.PayByCach();
+shopDecoratorNoInheritence.PayByCash();
 shopDecoratorNoInheritence.PayByCard();

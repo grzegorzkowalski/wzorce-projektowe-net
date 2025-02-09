@@ -7,7 +7,7 @@
             Console.WriteLine("Zapłacone kartą");
         }
 
-        public void PayByCach()
+        public void PayByCash()
         {
             Console.WriteLine("Zapłacone gotówką");
         }
